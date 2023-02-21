@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <div class="form-content-wrap">
+            <div class="form-content-in">
+                <div class="form-content-left">
+                    <i class="fa-sharp fa-solid fa-circle-user"></i>
+                    <div class="form-content-left-text">お名前</div>
+                </div>
+                <div class="form-content-right">
+                    <input type="text" class="name">
+                </div>
+            </div>
+            <div class="name-error-text"></div>
+        </div>
+        <div class="form-content-wrap">
+            <div class="form-content-in">
+                <div class="form-content-left">
+                    <i class="fa-sharp fa-solid fa-circle-user"></i>
+                    <div class="form-content-left-text">フリガナ</div>
+                </div>
+                <div class="form-content-right">
+                    <input type="text" class="furigana">
+                </div>
+            </div>
+            <div class="furigana-error-text"></div>
+        </div>
+        <div class="form-content-wrap">
+            <div class="form-content-in">
+                <div class="form-content-left">
+                    <i class="fa-sharp fa-solid fa-circle-user"></i>
+                    <div class="form-content-left-text">メールアドレス</div>
+                </div>
+                <div class="form-content-right">
+                    <input type="email" class="email">
+                </div>
+            </div>
+            <div class="email-error-text"></div>
+        </div>
+        <div class="form-content-wrap">
+            <div class="form-content-in">
+                <div class="form-content-left">
+                    <i class="fa-sharp fa-solid fa-circle-user"></i>
+                    <div class="form-content-left-text">電話番号(-なし)</div>
+                </div>
+                <div class="form-content-right">
+                    <input type="tel" class="tel">
+                </div>
+            </div>
+            <div class="tel-error-text"></div>
+        </div>
+        <div class="form-textarea-content-wrap">
+            <div class="form-textarea-content-in">
+                <div class="form-textarea-content-left">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <div class="form-textarea-content-left-text">お問い合わせ内容</div>
+                </div>
+                <div class="form-textarea-content-right">
+                    <textarea class="textarea"></textarea>
+                </div>
+            </div>
+            <div class="textarea-error-text"></div>
+        </div>
+        <div class="button-wrap">
+            <button type="button" class="button">送信</button>
+        </div>
+    </div>
+
+    <div class="form-success-container">
+        <div class="form-success-content">送信完了</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
